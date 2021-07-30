@@ -1,0 +1,57 @@
+
+body{
+   background-color: cornsilk;
+}
+
+
+.cal{
+   align-items: center;
+   margin-left: 33%;
+   position: absolute;
+   top: 20%;
+   display: block;
+   background-image: linear-gradient(rgb(89, 204, 114),rgb(93, 121, 138));
+   border-radius: 20px;
+   height: 75vh;
+   /* margin-left: 0%; */
+}
+/* .cal h1{
+   font-style: italic;
+} */
+.input{
+   text-align: center;
+   padding: 60px;
+margin: 20px;
+padding-top: 5%;
+}
+.input input{
+   border-radius: 20px;
+}
+.btn{
+    padding-left: 16%;
+    margin: 20px;
+    
+}
+
+button{
+    /* background-image: (rgb(89, 204, 114),rgb(93, 121, 138)) ; */
+    padding: 10px;
+    border-radius: 20px;
+}
+.output{
+   padding-left: 24%;
+   
+}
+.output h2{
+   padding-left: 20%;
+}
+.output input{
+   border-radius: 20px;
+   width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+   .cal{
+      margin-left: 0%;
+   }
+ }
