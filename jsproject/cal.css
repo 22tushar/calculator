@@ -57,10 +57,7 @@ button{
    /* margin: 2%; */
 
 }
-.counter #count{
-   margin: 2%;
-   clip-path: circle(50%);
-}
+
 
 @media only screen and (max-width: 600px) {
    .cal{
