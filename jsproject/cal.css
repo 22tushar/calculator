@@ -50,6 +50,18 @@ button{
    width: 60%;
 }
 
+.counter{
+   display: block;
+   text-align: center;
+   /* padding: 2%; */
+   /* margin: 2%; */
+
+}
+.counter #count{
+   margin: 2%;
+   clip-path: circle(50%);
+}
+
 @media only screen and (max-width: 600px) {
    .cal{
       margin-left: 0%;
