@@ -39,11 +39,11 @@ function div() {
 
      var button = document.getElementById("start");
         cnt = 0;
-      while(1){  
+       
       button.onclick = function() {
         cnt+= 1;
         document.getElementById("count").value =  cnt;
-      }
+      
       };
        // }
        var btn = document.getElementById("end");
