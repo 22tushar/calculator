@@ -49,9 +49,9 @@ function div() {
        var btn = document.getElementById("end");
     
      btn.onclick = function() {
-      
-       document.getElementById("count").value =  0;
-       cnt=0;
+       cnt--;
+       document.getElementById("count").value =  cnt;
+       
      };
         // function fn2(){
         //   answer.innerText="";
