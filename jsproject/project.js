@@ -37,7 +37,22 @@ function div() {
     document.getElementById("answer").value = c;
 }
 
-
+     var button = document.getElementById("start");
+        cnt = 0;
+      while(1){  
+      button.onclick = function() {
+        cnt+= 1;
+        document.getElementById("count").value =  cnt;
+      }
+      };
+       // }
+       var btn = document.getElementById("end");
+    
+     btn.onclick = function() {
+      
+       document.getElementById("count").value =  0;
+       cnt=0;
+     };
         // function fn2(){
         //   answer.innerText="";
         // }
